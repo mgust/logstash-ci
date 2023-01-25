@@ -56,7 +56,7 @@ where an input is expected on the `beats` input, and a filtered output is expect
 If you want to test for the absence of output, don't include the OUTPUT block and the test will time out after a few seconds to confirm there was no output.
 
 ## Examples
-Included in the `examples` directory is a simplistic Logstash configuration and a test file with two tests that will succeed, and one that will fail.
+Included in the `example` directory is a simplistic Logstash configuration and a test file with two tests that will succeed, and one that will fail.
 You can run it with `ruby test.rb -c example/config/ -t example/tests/ -p example/pipelines/` which should give you the following output:
 
 ![example](https://github.com/mgust/logstash-ci/blob/master/.github/example.png?raw=true)

@@ -1,0 +1,8 @@
+###INPUT-beats###
+{
+  "this_test": "will fail"
+}
+###OUTPUT-stdout###
+{
+  "this_test": "has wrong data"
+}

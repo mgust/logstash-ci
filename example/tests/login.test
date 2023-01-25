@@ -1,0 +1,19 @@
+###INPUT-beats###
+{
+  "action": "login",
+  "secret": "VerySecretPassword"
+}
+###OUTPUT-stdout###
+{
+  "action": "login"
+}
+###INPUT-beats###
+{
+  "action": "foo",
+  "secret": "bar"
+}
+###OUTPUT-stdout###
+{
+  "action": "foo",
+  "secret": "bar"
+}
